@@ -1,0 +1,54 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/franc/CLionProjects/tarefa3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_75234/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_75234.dir\build.make CMakeFiles/cmTC_75234.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/franc/CLionProjects/tarefa3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75234.dir/CMakeCCompilerABI.c.obj
+C:\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_75234.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\gcc.exe
+Target: mingw32
+Configured with: ../src/gcc-8.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-8.2.0-5' --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-isl=/mingw --enable-libgomp --disable-libvtv --enable-nls --disable-build-format-warnings
+Thread model: win32
+gcc version 8.2.0 (MinGW.org GCC-8.2.0-5) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_75234.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/8.2.0/ C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles\cmTC_75234.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\franc\AppData\Local\Temp\cc8YS4Jh.s
+GNU C17 (MinGW.org GCC-8.2.0-5) version 8.2.0 (mingw32)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/8.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+End of search list.
+GNU C17 (MinGW.org GCC-8.2.0-5) version 8.2.0 (mingw32)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 88d50f904797cac3fc341345a9dc4ec1
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_75234.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_75234.dir\CMakeCCompilerABI.c.obj C:\Users\franc\AppData\Local\Temp\cc8YS4Jh.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/8.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_75234.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+gcc.exe: error: C:\Users\franc\AppData\Local\Temp\cc8YS4Jh.s: Permission denied
+CMakeFiles\cmTC_75234.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_75234.dir/CMakeCCompilerABI.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_75234.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: *** Deleting file 'CMakeFiles/cmTC_75234.dir/CMakeCCompilerABI.c.obj'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/franc/CLionProjects/tarefa3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_75234/fast' failed
+mingw32-make.exe: *** [cmTC_75234/fast] Error 2
+
+
+
+

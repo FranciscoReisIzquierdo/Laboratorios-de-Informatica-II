@@ -1,0 +1,30 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/franc/CLionProjects/tarefa3/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/franc/CLionProjects/tarefa3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_7fa09/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7fa09.dir\build.make CMakeFiles/cmTC_7fa09.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/franc/CLionProjects/tarefa3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fa09.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_7fa09.dir\testCCompiler.c.obj   -c C:\Users\franc\CLionProjects\tarefa3\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_7fa09.exe
+"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7fa09.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7fa09.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_7fa09.dir/objects.a @CMakeFiles\cmTC_7fa09.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_7fa09.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7fa09.exe -Wl,--out-implib,libcmTC_7fa09.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7fa09.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/franc/CLionProjects/tarefa3/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
