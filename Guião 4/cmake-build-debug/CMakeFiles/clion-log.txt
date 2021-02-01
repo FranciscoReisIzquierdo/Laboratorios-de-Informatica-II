@@ -1,0 +1,40 @@
+"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\franc\Desktop\LI2\CLionProjects\Guião das Arrays"
+-- The C compiler identification is GNU 8.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2019.3.3/bin/cmake/win/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/franc/Desktop/LI2/CLionProjects/GuiÃ£o das Arrays/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_added/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_added.dir\build.make CMakeFiles/cmTC_added.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/franc/Desktop/LI2/CLionProjects/GuiÃ’o das Arrays/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_added.dir/testCCompiler.c.obj
+    C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_added.dir\testCCompiler.c.obj   -c "C:\Users\franc\Desktop\LI2\CLionProjects\Guiâ”œÃºo das Arrays\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+    gcc.exe: error: C:\Users\franc\Desktop\LI2\CLionProjects\Gui+Â·o das Arrays\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    CMakeFiles\cmTC_added.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_added.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_added.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/franc/Desktop/LI2/CLionProjects/GuiÃ’o das Arrays/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:120: recipe for target 'cmTC_added/fast' failed
+    mingw32-make.exe: *** [cmTC_added/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/franc/Desktop/LI2/CLionProjects/GuiÃ£o das Arrays/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/franc/Desktop/LI2/CLionProjects/GuiÃ£o das Arrays/cmake-build-debug/CMakeFiles/CMakeError.log".
